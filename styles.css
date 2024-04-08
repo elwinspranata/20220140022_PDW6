@@ -1,0 +1,89 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif; 
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 36px;
+  color: white;
+}
+
+.card {
+  background-color: #111; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.song-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+.media-container {
+  display: flex;
+  align-items: center;
+}
+
+.audio-player {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.song-image {
+  max-width: 70%;
+  height: auto;
+}
+
+.song-description {
+  color: #eee;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 20px;
+}
+
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+
+.social-link {
+  margin: 0 5px;
+}
+
+.social-link img {
+  width: 20px;
+  height: 20px;
+}
